@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    /* DEBUG */
     background-color: lightgray;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -20,7 +25,8 @@
 .container-general{
     width: 80%;
     margin: 0 auto;
-    border: 3px solid red;
+    /* DEBUG */
+    border: 3px solid red; 
 }
 
 .clearfix::after{
@@ -35,23 +41,31 @@
 
 .col-left{
     float: left;
-    background-color: bisque;
     width: 15%;
     height: 70px;
+    /* DEBUG */
+    background-color: bisque; 
 }
 
 .col-center{
     float: left;
-    background-color: aliceblue;
     width: 70%;
     height: 70px;
+    /* DEBUG */
+    background-color: aliceblue; 
 }
 
 .col-right{
     float: right;
-    background-color: rgb(59, 49, 36);
+    background-color: rgb(59, 49, 36); 
     width: 15%;
     height: 70px;
+}
+
+/* header logo */
+
+header .col-left img{
+    vertical-align: middle;
 }
 
 /* header nav */
@@ -59,9 +73,21 @@
 header .container-general .col-center ul li{
     list-style: none;
     display: inline-block;
+    margin: 0 30px;
 }
 
-header .col-center li a{
-    text-decoration: none;
-    margin: 0 30px;
+.column{
+    line-height: 70px;
+    text-align: center;
+}
+
+/* BUTTON */
+/* button common */
+
+header .col-right .button-small{
+padding: .6em 1.3em;
+line-height: 1.2em;
+border-radius: 20px;
+/* DEBUG */
+background-color: aqua;
 }
