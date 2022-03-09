@@ -89,10 +89,71 @@ header .container-general .col-center ul li{
 /* BUTTON */
 /* button common */
 
-header .col-right .button-small{
+.button-small{
 padding: .6em 1.3em;
 line-height: 1.2em;
 border-radius: 20px;
-background-color: white;
 color: black;
 }
+
+.button-big{
+    padding: .8em 2em;
+    line-height: 1.6em;
+    border-radius: 20px;
+    background-color: rgb(59, 26, 26);
+    display: inline-block;
+}
+
+.btn-white{
+    background-color: white;
+}
+
+.btn-spacegray{
+    background-color: #23272A;
+    color: white;
+}
+
+/* MAIN */
+/* jumbotron */
+
+.jumbotron-section{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-section .container-general{
+    padding: 8em 20em;
+}
+
+/* title & text */
+main section .jumbo-internal-cont .jumbo-title{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: white;
+}
+
+main section .jumbo-internal-cont .jumbo-text{
+line-height: 1.3em;
+text-align: center;
+font-size: 1.8em;
+color: white;
+}
+
+/* jumbotron button */
+main section .jumbo-internal-cont .jumbo-button{
+ text-align: center;
+ margin-top: 2em;
+ font-size: 1.2em
+}
+
+.jumbo-button > .button-big{
+    margin-right: 30px;
+}
+
+
+
+/* jumbotron button */
