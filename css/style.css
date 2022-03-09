@@ -4,20 +4,24 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    /* DEBUG */
-    background-color: lightgray;
 }
 
 a{
     text-decoration: none;
 }
 
+/* FONT */
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+
 /* HEADER */
 
 .header{
     width: 100%;
     background-color: #3161E0;
-
 }
 
 /* COMMON */
@@ -43,21 +47,16 @@ a{
     float: left;
     width: 15%;
     height: 70px;
-    /* DEBUG */
-    background-color: bisque; 
 }
 
 .col-center{
     float: left;
     width: 70%;
     height: 70px;
-    /* DEBUG */
-    background-color: aliceblue; 
 }
 
 .col-right{
     float: right;
-    background-color: rgb(59, 49, 36); 
     width: 15%;
     height: 70px;
 }
@@ -73,7 +72,13 @@ header .col-left img{
 header .container-general .col-center ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 2em;
+}
+
+.col-center ul a{
+    color: white;
+    font-weight: 700;
+    font-size: .8em;
 }
 
 .column{
@@ -88,6 +93,6 @@ header .col-right .button-small{
 padding: .6em 1.3em;
 line-height: 1.2em;
 border-radius: 20px;
-/* DEBUG */
-background-color: aqua;
+background-color: white;
+color: black;
 }
