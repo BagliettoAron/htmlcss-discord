@@ -30,7 +30,7 @@
 }
 
 /* HEADER */
-/* header column */
+/* header column layout */
 
 
 .col-left{
@@ -52,4 +52,16 @@
     background-color: rgb(59, 49, 36);
     width: 15%;
     height: 70px;
+}
+
+/* header nav */
+
+header .container-general .col-center ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header .col-center li a{
+    text-decoration: none;
+    margin: 0 30px;
 }
