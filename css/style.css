@@ -89,6 +89,10 @@ header .container-general .col-center ul li{
 /* BUTTON */
 /* button common */
 
+.button-big{
+    display: inline-block;
+}
+
 .button-small{
     padding: .6em 1.3em;
     line-height: 1.2em;
@@ -96,18 +100,18 @@ header .container-general .col-center ul li{
     color: black;
 }
 
-.button-big{
+.button-big a{
     padding: .8em 2em;
     line-height: 1.6em;
     border-radius: 20px;
     display: inline-block;
 }
 
-.btn-white{
+.btn-white a{
     background-color: white;
 }
 
-.btn-spacegray{
+.btn-spacegray a{
     background-color: #23272A;
     color: white;
 }
@@ -146,7 +150,7 @@ color: white;
 main section .jumbo-internal-cont .jumbo-button{
  text-align: center;
  margin-top: 2em;
- font-size: 1.2em
+ font-size: 1.2em;
 }
 
 .jumbo-button > .button-big{
