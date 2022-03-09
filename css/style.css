@@ -16,14 +16,6 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
-
-/* HEADER */
-
-.header{
-    width: 100%;
-    background-color: #3161E0;
-}
-
 /* COMMON */
 
 .container-general{
@@ -38,6 +30,14 @@ html{
     display: table;
     clear: both;
 }
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    background-color: #3161E0;
+}
+
 
 /* HEADER */
 /* header column layout */
@@ -90,17 +90,16 @@ header .container-general .col-center ul li{
 /* button common */
 
 .button-small{
-padding: .6em 1.3em;
-line-height: 1.2em;
-border-radius: 20px;
-color: black;
+    padding: .6em 1.3em;
+    line-height: 1.2em;
+    border-radius: 20px;
+    color: black;
 }
 
 .button-big{
     padding: .8em 2em;
     line-height: 1.6em;
     border-radius: 20px;
-    background-color: rgb(59, 26, 26);
     display: inline-block;
 }
 
@@ -154,6 +153,39 @@ main section .jumbo-internal-cont .jumbo-button{
     margin-right: 30px;
 }
 
+/* info section */
+/* common */
+
+.image-column{
+    width: 60%;
+    background-color: lightcoral;
+    margin-top: 70px;
+    float: left;
+}
+
+.text-column{
+    width: 40%;
+    background-color: lightcyan;
+    margin-top: 70px;
+    float: left;
+    line-height: 1.8em;
+    padding: 2em 8em;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #23272A;
+}
+
+section .image-column img{
+    width: 100%;
+    height: auto;
+}
+
+section .text-column h2{
+    font-size: 2em;
+    line-height: 1.3em;
+    font-weight: 900;
+    margin-bottom: 1.5em;
+}
 
 
-/* jumbotron button */
+
